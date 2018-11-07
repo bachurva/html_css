@@ -1,0 +1,77 @@
+/* mystyle.css */
+h1 {
+  margin: 50px 0 25px 25px;
+}
+.a {
+    background-color: red;
+    width: 250px;
+    height: 200px;
+    border: 5px solid black;
+    margin: 1%;
+}  
+.b {
+    display: inline-block;  
+    background-color: red;
+    width: 250px;
+    height: 200px;
+    border: 5px double black;
+    margin: 1%   
+}
+.c {
+    display: inline-block;
+    background-color: red;
+    width: 250px;
+    height: 200px;
+    border: 5px dashed black;
+    margin: 1%;
+}
+.d {
+    display: inline-block;
+    background-color: red;
+    width: 250px;
+    height: 200px;
+    border: 5px dotted black;
+    margin: 1%; 
+}
+.e {
+    display: inline-block;
+    background-color: red;
+    width: 250px;
+    height: 200px;
+    margin: 1%; 
+}
+.outerbox {
+    background-color: salmon;
+    width: 500px;
+    height: 200px;
+    padding: 2% 2% 2% 2%;
+}
+.innerbox {
+    display: inline-block;
+    background-color: green;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+    border: 1em solid red;
+    margin: 50px 0 0px 50px
+}
+.outerbox2 {
+    background-color: salmon;
+    width: 400px;
+    height: 150px;
+    padding: 2% 2% 2% 2%;
+}
+.innerbox2 {
+    display: inline-block;
+    background-color: green;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+    border: 1em solid red;
+    margin: 30px 0px 0px 70px
+}
+
