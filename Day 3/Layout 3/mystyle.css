@@ -1,0 +1,64 @@
+/* mystyle.css */
+*,
+*:after
+*:before {
+  -webkit-box-sizing: box-size;
+  -mox-box-sizing: box-size;
+  box-sizing: box-size;
+}
+
+.wrapper {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+.box {
+  display: inline-block;
+  width: 270px;
+  height: 270px;
+  background: red;
+  margin: 10px;
+  padding: 20px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.big-box {
+  width: 550px;
+}
+
+.box-1 {
+  background-color: #FF6666;
+}
+
+.box-2 {
+  background-color: #00868B;
+}
+
+.box-3 {
+  background-color: #944DFF;
+}
+
+.box-4 {
+  background-color: #00BEFE;
+}
+
+.box-5 {
+  background-color: #20BF9F;
+}
+
+.box-6 {
+  background-color: #00E673;
+}
+
+.box-7 {
+  background-color: #F2FB38;
+}
+
+.box-8 {
+  background-color: #FE7E00;
+}
+
+.box-9 {
+  background-color: #D04545;
+}
