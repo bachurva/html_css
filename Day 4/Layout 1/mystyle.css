@@ -1,0 +1,10 @@
+/* mystyle.css */
+section {
+  margin: 70px;
+}
+
+hr { 
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+} 
