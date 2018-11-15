@@ -50,7 +50,7 @@ body {
 	margin: 0 auto;
 }
 
-Header
+/*Header*/
 
 .hcontainer {
 	margin: 0px 20px;
@@ -88,31 +88,36 @@ Header
 	vertical-align: middle;
 }
 
-.link {
-	font-size: 20px; 
-	color: white;
-	border-right: 2px solid white;
-	text-decoration: none;
-	padding: 5px;
-	display: inline;
+.greybox {
+  background: #8C8888;
+  line-height: 2;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100px;
+  height: 50px;
+  border-right: 2px solid #464646;
+  padding-top: 10px;
+}
 
+.float-left{
+  float: left;
+}
+  
+.clearfix{
+    content: " ";
+    display: table; 
 }
 
 
 .linkpanel {
-	/*line-height: 60px;*/
-	
-	font-family: Verdana, sans-serif;
-	font-weight: bold;
-	font-size: 30px;
-	text-align: left;
 	background: #8C8888;  
-	padding: 20px;
-	width: 1820px;
-	box-shadow: 10px 10px 20px 25px #888 inset;
+	width: 1860px;
+	text-align: center;
 }
 
-Section
+/*Section*/
+
 
 .squarebox {
 	width: 200px;
@@ -129,7 +134,7 @@ Section
 .subheading {
 	margin: 0px 20px;
 	margin-top: 20px;
-	padding: 50px;
+	padding-top: 50px;
 	color: black;
 	font-family: Verdana, sans-serif;
 	font-weight: bold;
@@ -157,3 +162,4 @@ hr {
 	margin-right: 20px;
 	clear: both;
 } 
+
