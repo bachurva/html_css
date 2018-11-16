@@ -4,12 +4,12 @@
 *:before {
   -webkit-box-sizing: box-size;
   -mox-box-sizing: box-size;
-  box-sizing: box-size;
+  box-sizing: border-box;
 }
 
 .wrapper {
-  width: 1360px;
-  margin: 0 auto;
+  width: 1560px;
+  border: 2px solid brown;
 }
 
 .box {
@@ -17,14 +17,15 @@
   width: 25%;
   height: 270px;
   background: red;
-  margin: 10px;
-  padding: 20px;
   color: #fff;
   font-size: 24px;
+  box-sizing; border-box:
 }
 
 .big-box {
+  display: inline-block;
   width: 50%;
+  box-sizing; border-box: 
 }
 
 .box-1 {

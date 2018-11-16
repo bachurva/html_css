@@ -1,0 +1,123 @@
+/* mystyle.css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+*,
+*:after
+*:before {
+  -webkit-box-sizing: box-size;
+  -mox-box-sizing: box-size;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1000px;
+  border: 2px solid brown;
+  margin: 20px auto;
+}
+
+.box {
+  display: inline-block;
+  width: 23%;
+  height: 270px;
+  background: red;
+  color: #fff;
+  font-size: 24px;
+  box-sizing: border-box;
+  margin: 2%;
+  padding: 34px;
+}
+
+.big-box {
+  display: inline-block;
+  width: 46%;
+  box-sizing: border-box;
+}
+
+.box-1 {
+  background-color: #FF6666;
+}
+
+.box-2 {
+  background-color: #00868B;
+}
+
+.box-3 {
+  background-color: #944DFF;
+}
+
+.box-4 {
+  background-color: #00BEFE;
+}
+
+.box-5 {
+  background-color: #20BF9F;
+}
+
+.box-6 {
+  background-color: #00E673;
+}
+
+.box-7 {
+  background-color: #F2FB38;
+}
+
+.box-8 {
+  background-color: #FE7E00;
+}
+
+.box-9 {
+  background-color: #D04545;
+}
+
+.centerbox {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.middlebox {
+  margin-top: 0;
+  margin-bottom: 0;
+}
