@@ -51,60 +51,43 @@ table {
 	height: 1500px;
 	border: 1px solid black;
 	margin: 5px auto;
+	box-shadow: 3px 3px black;
 }
 
 .pink {
     background-color: #F9C4E1;
     color: black;  
     width: 500px;
-    height: 1000px;
     margin-top: 5px;
     margin-left: 5px;
-    display: inline-block;
+    float: left;
+    position: fixed;
 }
 
 .blue {
     background-color: #A9E6E1;
     color: black;
     width: 500px;
-    height: 1200px;
     margin-top: 5px;
     margin-right: 5px;
-    display: inline-block;
+    float: right;
 }
 
 /*Text*/
 
 p {
 	color: black;
-	font-family: "Courier New";
+	font-family: "Times New Roman";
 	font-size: 15px;
 	margin: 10px;
 }
 
 .ps {
 	color: black;
-	font-family: "Courier New";
+	font-family: "Times New Roman";
 	font-size: 15px;
 	margin: 10px;
 }
-
-
-/*.box {
-	width: 200px;
-	height: 100px;
-	background-color: rgba(162,187,140,0.6);
-	display: inline-block;
-	margin: 20px;
-}
-
-.border {
-	border: 10px solid black;
-}
-
-.border-bx{
-	box-sizing: border-box;
-}*/
 
 
 

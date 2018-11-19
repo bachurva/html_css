@@ -1,5 +1,10 @@
 /*Style Sheet*/
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,51 +49,42 @@ table {
 	border-spacing: 0;
 }
 
-/*Header*/
-
-h1{
-    font-size: 20px;
-    font-family: "Courier New";
-    color: black;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-/*Section*/
+/*Nav Section*/
 
 .wrapper {
-	width: 720px;
-	border: 2px solid #33491F;
-	margin: 0 auto;
+	background-color: #4FEAD5;
 }
 
-.box {
-	width: 200px;
-	height: 100px;
-	background-color: rgba(162,187,140,0.6);
+.menu {
 	display: inline-block;
-	margin: 20px;
+	font-family: serif;
+	font-size: 30px;
+	color: purple;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 300px;
+	text-align: center;
 }
 
-.border {
-	border: 10px solid black;
+/*Body Text*/
+
+p {
+	color: red;
+	font-family: serif;
+	font-size: 15px;
+	text-align: center;
+	padding: 15px 600px;
 }
 
-.border-bx{
-	box-sizing: border-box;
+/*Icons*/
+
+img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-left: 300px;
+	padding-top: 50px;
 }
 
-
-hr {
-	border: 1px dashed grey;
-	align: center;
-	display: block;
-    width: 700px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
 
