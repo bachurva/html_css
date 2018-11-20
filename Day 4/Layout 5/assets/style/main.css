@@ -49,21 +49,43 @@ table {
 	border-spacing: 0;
 }
 
+/* Universal - Border box & Clearfix */
+
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix{
+	clear:both;
+}
+
 /*Nav Section*/
 
-.wrapper {
+.menuwrapper {
 	background-color: #4FEAD5;
 }
 
 .menu {
 	display: inline-block;
 	font-family: serif;
-	font-size: 30px;
+	font-size: 25px;
 	color: purple;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 300px;
+/*	padding-top: 20px;
+	padding-bottom: 20px;*/
+/*	padding-left: 300px;*/
 	text-align: center;
+	margin: 2.5%;
+	width: 20%;
 }
 
 /*Body Text*/
@@ -78,12 +100,16 @@ p {
 
 /*Icons*/
 
+.iconwrapper {
+	background-color: white;
+}
+
 img {
-	width: 100px;
-	height: 100px;
-	float: left;
-	padding-left: 300px;
-	padding-top: 50px;
+	display: inline-block;
+/*	padding: 0 50px;*/
+	width: 10vw;
+	height: 10vw;
+	margin: 7.5vw;
 }
 
 
