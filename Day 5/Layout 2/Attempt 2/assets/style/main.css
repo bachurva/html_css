@@ -67,66 +67,38 @@ table {
 	clear:both;
 }
 
-.clearfix{
+.clearfix {
 	clear:both;
 }
 
+/*Background Image*/
+
+.backgroundimg {
+	
+	margin: 0 auto;
+	width: 768px;
+	height: 1002px;
+	background-image: url("/home/urvashib/Documents/learn/html_css/Day 5/Layout 2/assets/media/Velocity_IsabelleArsenault.jpg");
+}
 
 /*Header*/
 
 h1 {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
 	font-family: sans-serif;
-	font-size: 50px;
-	color: black;
-	text-align: left;
-	padding: 10px;
+	text-align: center;
+	padding: 20px;
 }
 
+/*Boxes*/
 
-/*Body*/
+div {
+  background: 247;
+  background: linear-gradient(to right bottom, #F79075, #8DEDEF);
+  height: 100px;
+  width: 100%
+  box-shadow: 
 
-.wrapper {
-	background-color: #CFD6D5;
-}
-
-.boxcontainer {
-	background-color: white;
-	width: 50%;
-	margin: 10px auto;
-	padding: 10px;
-}
-
-.inlineblock-box {
-	border-radius: 5px;
-	background-color: #EC5246;
-	padding: 10px;
-	display: inline-block;
-	margin-top: 10px;
-	vertical-align: top;
-}
-
-.width45 {
-	width: 45%;
-}
-
-.width50 {
-	width: 50%;
-}
-
-.float-box {
-	border-radius: 5px;
-	background-color: #89C652;
-	padding: 10px;
-	margin-top: 10px;
-}
-
-.fll {
-	float: left;
-}
-
-
-p {
-	font-family: serif;
-	color: black;
-	font-size: 15px;
 }

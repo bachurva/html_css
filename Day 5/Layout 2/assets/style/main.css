@@ -51,82 +51,46 @@ table {
 	border-spacing: 0;
 }
 
-/* Unversal - Border Box & Clearfix */
 
-*, *:before, *:after{
-	box-sizing: border-box;
+/*Background Image*/
+
+.bgimg {
+  background: url("/home/urvashib/Documents/learn/html_css/Day 5/Layout 2/assets/media/background-img.jpg") 0 0 no-repeat;
+  background-size: contain;
+  background-position: center; 
+  width: 1920px;
+  height: 950px;
+  margin: 10px;
 }
-
-
-.clearfix:before, .clearfix:after{
-	content: "";
-	display: table;
-}
-
-.clearfix:after{
-	clear:both;
-}
-
-.clearfix{
-	clear:both;
-}
-
 
 /*Header*/
 
 h1 {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
 	font-family: sans-serif;
-	font-size: 50px;
-	color: black;
-	text-align: left;
-	padding: 10px;
+	text-align: center;
+	padding: 20px;
 }
 
+/*Boxes*/
 
-/*Body*/
-
-.wrapper {
-	background-color: #CFD6D5;
-}
-
-.boxcontainer {
-	background-color: white;
-	width: 50%;
-	margin: 10px auto;
-	padding: 10px;
-}
-
-.inlineblock-box {
-	border-radius: 5px;
-	background-color: #EC5246;
-	padding: 10px;
-	display: inline-block;
-	margin-top: 10px;
-	vertical-align: top;
-}
-
-.width45 {
-	width: 45%;
-}
-
-.width50 {
-	width: 50%;
-}
-
-.float-box {
-	border-radius: 5px;
-	background-color: #89C652;
-	padding: 10px;
-	margin-top: 10px;
-}
-
-.fll {
+.box {
+	width: 30%;
+	height: 300px;
+	margin: 4%;
 	float: left;
+	border-radius: 10px;
+	background-color: #B62925;
+	position: relative;
 }
 
+/*div {
+  background: 247;
+  background: linear-gradient(to right bottom, #F79075, #8DEDEF);
+  height: 100px;
+  width: 100%
+  box-shadow:  
 
-p {
-	font-family: serif;
-	color: black;
-	font-size: 15px;
-}
+}*/

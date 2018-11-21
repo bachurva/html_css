@@ -1,4 +1,12 @@
-/*stylesheet*/
+/*Style Sheet*/
+
+/*CSS Reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,36 +33,92 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-  height: 100%; 
-	background: #030303;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.container {
-	margin: 0 auto;
-	width: 1000px; 
+/* Unversal - Border Box & Clearfix */
+
+*, *:before, *:after{
+	box-sizing: border-box;
 }
+
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix{
+	clear:both;
+}
+
+/*Wrapper*/
+
+.wrapper {
+	background-color: #2C2D2B;
+	width: 1000px;
+	height: 900px;
+	padding: 30px;
+	margin: 30px auto;
+}
+
+/*Header*/
 
 h1 {
-	line-height: 50px;
-    margin: 20px 0;
-    color: white;
-    font-family: "Times New Roman";
-	font-style: bold;
-	font-size: 50px;
-	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Garamond;
+	text-shadow: 0 3px 1px #9D9A95;
+	margin: 50px;
+	padding-left: 10px;
 }
 
-.leftheader {
-	line-height: 20px;
-    color: red;
+.tagged {
+
+	float: left;
+	color: red;
 	font-size: 20px;
-    font-style: bold;
+	font-weight: bold;
+	padding: 10px;
+	margin-left: 50px;
 }
 
-.rightheader {
-	line-height: 20px;
-    color: white;
+.date {
+	float: right;
+	color: white;
 	font-size: 20px;
-    font-style: bold;
-} 
+	font-weight: bold;
+	padding: 10px;
+	margin-right: 50px;
+}
 
+p {
+
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #B1A07F;
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	line-height: 1;
+}
