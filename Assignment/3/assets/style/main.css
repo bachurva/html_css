@@ -1,11 +1,9 @@
-/*Style Sheet*/
-
 /*CSS Reset*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+ v2.0 | 20110126
+ License: none (public domain)
+ */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -51,47 +49,76 @@ table {
 	border-spacing: 0;
 }
 
+/*Universal Selector*/
 
-/*Background Image*/
-
-.bgimg {
-  background: url("/home/urvashib/Documents/learn/html_css/Day 5/Layout 2/assets/media/background-img.jpg") 0 0 no-repeat;
-  background-size: contain;
-  background-position: center; 
-  width: 1920px;
-  height: 950px;
- /* margin: 10px;*/
+*,
+html,
+body {
+	font-family: serif;
+	color: black;
+	font-size: 20px;
 }
 
 /*Header*/
 
+.hcontainer {
+    background-color: #B3EEA3;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2px;
+}
+
 h1 {
-	color: white;
-	font-size: 30px;
+	font-size: 2em;
 	font-weight: bold;
-	font-family: sans-serif;
-	text-align: center;
-	padding: 20px;
+	line-height: 2;
+	padding: 10px 0;
 }
 
-/*Boxes*/
+/*Main Menu / Technical and Managerial Tutorials*/
 
-.box {
-	width: 320px;
-	height: 300px;
-	margin: 5%;
+.maintab {
+	width: 40%;
+	height: 400px;
+	background-color: #DCBCF2;
 	display: inline-block;
-	border-radius: 10px;
-	background-color: #B62925;
-	/*background-position: left;*/
-	/*position: relative;*/
+	box-sizing: border-box;
+	padding: 2px;
 }
 
-/*div {
-  background: 247;
-  background: linear-gradient(to right bottom, #F79075, #8DEDEF);
-  height: 100px;
-  width: 100%
-  box-shadow:  
+h2 {	
+	font-size: 1em;
+	box-sizing: border-box;
+	font-weight: bold;
+}
 
-}*/
+a {
+	display: block;
+	text-decoration: none;
+}
+
+.techmgrtut {
+	width: 60%;
+	display: inline-block;
+    box-sizing: border-box;
+    padding: 2px;
+    vertical-align: top;
+}
+
+/*Footer*/
+
+.fcontainer {
+	width: 100%;
+	height: 50px;
+	background-color: #B3EEA3;
+	box-sizing: border-box;
+	margin-top: 2px;
+}
+
+footer {
+  font-size: 1em;
+	line-height: 2.5;
+	text-align: center;
+	box-sizing: border-box;
+}
+

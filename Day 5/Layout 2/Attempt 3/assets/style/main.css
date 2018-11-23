@@ -1,0 +1,163 @@
+/*Style Sheet*/
+
+/*CSS Reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Unversal - Border Box & Clearfix */
+
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix {
+	clear:both;
+}
+
+*,html,body {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body { 
+  background-image: url("/home/urvashib/Documents/learn/html_css/Day 5/Layout 2/Attempt 3/assets/media/background-img.jpg");
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  
+}
+
+div, body{
+  margin: 0;
+  padding: 0;
+  font-family: exo, sans-serif;
+  
+}
+.wrapper {
+  position: relative;
+}
+
+.background {
+  padding: 0.5em;
+  background-color: rgba(0,0,0,0.6);
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+.box {
+  float: left;
+  width: 30%;
+  margin: 4% 1.5%;
+  height: 300px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.box-1 {
+  background: #fc3565;
+}
+.box-2 {
+   background: linear-gradient(to right,  #272727, #fc3565);
+}
+.box-3 {
+  background: radial-gradient(#fc3565, #272727);
+}
+.box-4 {
+  width: 90%;
+  margin: 4% auto;
+  height: 500px;
+  border-radius: 20px;
+  position: relative;
+  background: url("/home/urvashib/Documents/learn/html_css/Day 5/Layout 2/Attempt 3/assets/media/1200x800.jpeg") center center no-repeat;
+  background-size: cover;
+}
+.inner-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom right,#002f4b,#dc4225);
+  opacity: 0.6;
+  border-radius: 20px;
+}
+.box p, .box-4 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+  z-index: 1;
+}
+

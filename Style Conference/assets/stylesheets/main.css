@@ -51,47 +51,47 @@ table {
 	border-spacing: 0;
 }
 
+/* Grid */
 
-/*Background Image*/
-
-.bgimg {
-  background: url("/home/urvashib/Documents/learn/html_css/Day 5/Layout 2/assets/media/background-img.jpg") 0 0 no-repeat;
-  background-size: contain;
-  background-position: center; 
-  width: 1920px;
-  height: 950px;
- /* margin: 10px;*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-/*Header*/
 
-h1 {
-	color: white;
-	font-size: 30px;
-	font-weight: bold;
-	font-family: sans-serif;
-	text-align: center;
-	padding: 20px;
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 30px;
 }
 
-/*Boxes*/
 
-.box {
-	width: 320px;
-	height: 300px;
-	margin: 5%;
-	display: inline-block;
-	border-radius: 10px;
-	background-color: #B62925;
-	/*background-position: left;*/
-	/*position: relative;*/
+/*Typography*/
+
+h1, h3, h4, h5, p {
+	margin-bottom: 22px;
 }
 
-/*div {
-  background: 247;
-  background: linear-gradient(to right bottom, #F79075, #8DEDEF);
-  height: 100px;
-  width: 100%
-  box-shadow:  
+/*Buttons*/
 
-}*/
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+
+.btn-alt {
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+
+/*Home*/
+
+.hero {
+	padding: 22px 80px 66px 80px;
+}
+
+
