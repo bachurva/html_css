@@ -1,0 +1,222 @@
+/*CSS Reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+ 	display: block;
+ }
+ body {
+ 	line-height: 1;
+ }
+ ol, ul {
+ 	list-style: none;
+ }
+ blockquote, q {
+ 	quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ 	content: '';
+ 	content: none;
+ }
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
+
+ /*Universal Border Box and Clearfix*/
+
+ *, *:before, *:after{
+ 	box-sizing: border-box;
+ }
+
+ .cf:before, .cf:after{
+ 	content: "";
+ 	display: table;
+ }
+
+ .cf:after{
+ 	clear:both;
+ }
+
+ .cf:before{
+ 	clear:both;
+ }
+
+ .cf{
+ 	clear:both;
+ } 
+
+ .cf{
+ 	*zoom:1;
+ } 
+
+ .group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ /*Custom CSS*/
+
+ /*Universal*/
+
+ *,
+ html,body {
+ 	font-size: 10px;
+ 	font-family: sans-serif;
+ }
+
+ .wrapper {
+ 	width: 1400px;
+ 	background-color: white;
+ 	margin: 10px auto;
+ 	padding: 10px 60px;
+ }
+
+ /*Header*/
+
+ .hcontainer {
+ 	text-align: left;
+ 	position: fixed;
+ 	background-color: white; 
+ }
+
+ h1 {
+ 	font-size: 6.3em;
+ 	color: #403F41;
+ }
+
+ h3 {
+ 	font-size: 3.2em;
+ 	color: #9E9898;
+ 	padding: 10px;
+
+ }
+
+ h5 {
+ 	font-size: 2em;
+ 	margin-top: 15px;
+ 	color: #403F41;
+ 	margin-left: 10px;
+ 	
+ }
+
+ hr { 
+ 	width: 1300px;
+ 	margin-top: 20px;
+ 	color: #403F41; 
+ } 
+
+
+ /*Body*/
+
+ /*Chapter listing*/
+
+ .chapterlist {
+ 	font-size: 1.8em;
+ 	line-height: 2;
+ 	background-color: rgba(216, 211, 211, 0.3);
+ 	width: 400px;
+ 	float: left;
+ 	margin-top: 200px;
+ 	height: 580px;
+ 	margin-right: 20px;
+ 	padding: 30px 30px;
+ 	position: fixed;
+
+ }
+
+ h4 {
+ 	font-size: 2em;
+ 	color: #403F41;
+ }
+
+ li {
+ 	list-style-type: circle;
+ }
+
+ a {
+ 	text-decoration: underline;
+ 	color: #57B6AF;
+ }
+
+ /*Chapter*/
+
+ .chapter {
+ 	margin-top: 200px;
+ 	float: left;
+ 	width: 900px;
+ 	margin-left: 400px;
+ 	line-height: 1.5;
+ }
+
+ h2 {
+ 	font-size: 5em;
+ 	line-height: 1;
+ 	padding: 5px;
+ 	margin: 30px;
+ 	color: #403F41;
+ }
+
+ article p {
+ 	font-size: 2em;
+ 	margin-left: 30px;
+ 	color: #403F41;
+ }
+
+ /*Footer*/
+
+ footer {
+ 	background-color: #898585;
+ 	width: 1300px;
+ 	height: 100px;
+ 	color: white;
+ 	padding: 10px;
+	color: white;
+	font-size: 1.8em;
+	position: fixed;
+	bottom: 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

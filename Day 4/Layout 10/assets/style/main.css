@@ -1,0 +1,304 @@
+/*CSS Reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+ 	display: block;
+ }
+ body {
+ 	line-height: 1;
+ }
+ ol, ul {
+ 	list-style: none;
+ }
+ blockquote, q {
+ 	quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ 	content: '';
+ 	content: none;
+ }
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
+
+ /*Universal Border Box and Clearfix*/
+
+ *, *:before, *:after{
+ 	box-sizing: border-box;
+ }
+
+ .cf:before, .cf:after{
+ 	content: "";
+ 	display: table;
+ }
+
+ .cf:after{
+ 	clear:both;
+ }
+
+ .cf:before{
+ 	clear:both;
+ }
+
+ .cf{
+ 	clear:both;
+ } 
+
+ .cf{
+ 	*zoom:1;
+ } 
+
+ .group:after {
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ }
+
+ /*Custom CSS*/
+
+ /*Body*/
+
+ *,
+ html,body {
+ 	font-size: 10px;
+ 	font-family: Montserrat;
+ }
+
+ .wrapper {
+ 	width: 1920px;
+ 	height: 1080px;
+ 	/* 	background-color: #D3D3D3;*/
+ 	margin: 0 auto;
+ }
+
+ /*Header*/
+
+ .hcontainer {
+ 	width: 1920px;
+ 	height: 510px;
+ 	background-color: #72C9CB;
+ 	position: relative;
+ }
+
+ .centerbox {
+ 	width: 800px;
+ 	height: 260px;
+ 	/*  border: 1px solid white;*/
+ 	position: absolute;
+ 	left: 50%;
+ 	top: 40%;
+ 	transform: translate(-50%, -50%);
+ }
+
+ .typifybox {
+ 	width: 70%;
+ 	margin: 0 auto;
+ 	padding: 30px;
+ 	border: 1px solid white;
+ 	margin-bottom: 20px;
+ }
+
+/* hr.typify {
+  border-top: 1px solid white;
+  width: 50px;
+  }*/
+
+  .sponsorbox {
+  	width: 50%;
+  	/* 	border: 1px solid brown;*/
+  	margin: 0 auto;
+  	color: white;
+  	font-size: 1.8em;
+  	font-weight: extra-light;
+  	text-align: center;
+  	padding: 10px; 
+  	margin-bottom: 40px;
+  }
+
+  h1 {
+  	font-size: 4.8em;
+  	font-weight: thin;
+  	text-align: center;
+  	color: white;
+  	line-height: 1.2;
+  	letter-spacing: 3px;
+  }
+
+  strong {
+  	font-weight: bold;
+  }
+
+
+  .button {
+  	position: absolute;
+  	top: 130%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  	background-color: #46757D;
+  	border: none;
+  	color: white;
+  	padding: 10px;
+  	font-size: 1.3em;
+  	margin: 0 10px;
+  }
+
+  /*Section*/
+
+  .scontainer {
+  	width: 1920px;
+  	height: 510px;
+  	background-color: white;
+  	position: relative;
+  }
+
+  h2 {
+  	font-size: 2.8em;
+  	font-weight: extra-light;
+  	text-align: center;
+  	color: #ADA3A3;
+  	line-height: 1.2;
+  	letter-spacing: 0.5px;
+  	margin-top: 60px;
+  	margin-bottom: 10px;
+  }
+
+  hr {
+  	border-bottom: 1px solid white;
+  	width: 500px;
+  }
+
+  .row1 {
+  	width: 750px;
+  	height: 150px;
+  	margin: 0 auto;
+  /*	margin-top: 5px;*/
+  	position: absolute;
+  	top: 34.40%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  }
+
+  .iconbox {
+  	width: 250px;
+  	height: 150px;
+  	border: 1px solid #ADA3A3;
+  	background-color: white;
+  	/*margin: 1px;*/
+  }
+
+  .float-left {
+  	float: left;
+  }
+
+  .border-right {
+   border-right: none;
+  }
+
+
+  h3 {
+  	font-size: 1.8em;
+  	font-weight: extra-light;
+  	text-align: center;
+  	color: #ADA3A3;
+  	line-height: 1.2;
+  	letter-spacing: 0.5px;
+  	margin-top: 20px;
+
+  }
+
+	.invisiblebox {
+   clear: both;
+}
+
+.row2 {
+  	width: 500px;
+  	height: 150px;
+  	margin: 0 auto;
+  	position: absolute;
+  	top: 63.48%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  }
+
+	.inlineblock {
+   display: inline-block;
+}
+
+	.blueicon {
+   border-radius: 50%;
+   background-color: #72C9CB;
+   width: 20px;
+   height: 20px;
+   margin: 0 auto;
+   margin-top: 15px;
+}
+
+	p {
+		font-size: 1.5em; 
+		color: #ADA3A3;
+		text-align: center;
+		padding: 10px;
+}
+
+
+ /*Footer*/
+
+.fcontainer {
+ 	width: 1920px;
+ 	height: 510px;
+ 	background-color: rgb(173, 163, 163,0.1);
+ 	position: relative;  	
+ 
+ }
+
+ 	.hf {
+  	border-bottom: 1px solid white;
+  	width: 210px;
+  }
+
+ small {
+ 	font-size: 1.5em;
+ 	color: #ADA3A3;
+ 	margin: 0 auto;
+ 	position: absolute;
+ 	top: 90%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ }
+
+ a {
+ 		color: #72C9CB;
+ 		text-decoration: underline;
+ }
+
+
+

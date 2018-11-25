@@ -1,0 +1,192 @@
+/*CSS Reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+ 	display: block;
+ }
+ body {
+ 	line-height: 1;
+ }
+ ol, ul {
+ 	list-style: none;
+ }
+ blockquote, q {
+ 	quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ 	content: '';
+ 	content: none;
+ }
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
+
+ /*Universal Border Box and Clearfix*/
+
+ *, *:before, *:after{
+ 	box-sizing: border-box;
+ }
+
+ .cf:before, .cf:after{
+ 	content: "";
+ 	display: table;
+ }
+
+ .cf:after{
+ 	clear:both;
+ }
+
+ .cf:before{
+ 	clear:both;
+ }
+
+ .cf{
+ 	clear:both;
+ } 
+
+ .cf{
+ 	*zoom:1;
+ } 
+
+ .group:after {
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ }
+
+ /*Custom CSS*/
+
+ /*Universal*/
+
+ *,
+ html,body {
+ 	font-size: 10px;
+ 	font-family: sans-serif;
+ }
+
+ .wrapper {
+ 	width: 1500px;
+ 	height: 800px;
+ 	background-color: white;
+ 	margin: 0 auto;
+ 	padding: 10px 60px;
+ }
+
+ /*Header*/
+
+ h1 {
+ 	font-size: 5em;
+ 	color: #686B6B;
+ 	padding: 10px;
+ 	text-align: left;
+ 	margin-bottom: 100px; 
+ 	margin-top: 100px; 	
+ }
+
+ /*Link Panel*/
+
+ li {
+ 	list-style-type: circle;
+ }
+
+ a {
+ 	text-decoration: underline;
+ 	color: #75CFCF;
+ }
+
+
+
+ .linkpanel {
+ 	font-size: 2.8em;
+ 	line-height: 2;
+ 	padding-left: 30px;
+ 	width: 20%;
+ 	height: 600px;
+ }
+
+ /*Text above Panel Array*/
+
+ .textcontainer {
+ 	width: 67%;
+ 	margin-left: 30px;
+ 	margin-bottom: 40px; 
+ 	padding-top: 10px;
+ }
+
+ p {
+ 	color: #686B6B;
+ 	font-size: 2em;
+ 	line-height: 1.5;
+ }
+
+ /*Panel Array*/
+
+ .panelcontainer {
+ 	width: 1400px;
+ 	height: 600px;
+ }
+
+ .panel {
+ 	width: 20%;
+ 	height: 400px;
+ 	border-radius: 6px;
+ 	background-color: rgba(196, 203, 203, 0.3);
+ 	padding: 18px;
+ 	margin-right: 40px;
+ 	margin-bottom: 100px;
+ 	margin-left: 25px;
+ }
+
+ .float-left {
+ 	float: left;
+ }
+
+ h2 {
+ 	color: #686B6B;
+ 	font-size: 3em;
+ 	padding-bottom: 25px; 	 
+ 	margin: 10px 2px;
+ }
+
+ /*Footer*/
+
+ footer {
+ 	background-color: #747C7C;
+ 	width: 1200px;
+ 	height: 100px;
+ 	border-radius: 10px;
+ 	font-size: 2em;
+ 	color: white;
+ 	padding: 10px;
+ 	margin-left: 80px;
+ 	}
+
+
