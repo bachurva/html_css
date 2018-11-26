@@ -98,60 +98,71 @@
   margin: 0 auto;
 }
 
+.white {
+  color: white;
+}
+
 /*Header*/
 
 .hcontainer {
   width: 1920px;
-  height: 80px;
+  height: 100px;
   background-color: #2C2D2D;
-  overflow: hidden;
   position: relative;
 }
 
 h1 {
   color: white;
-  font-size: 3em;
+  font-size: 3.6em;
   font-weight: bold;
   line-height: 1;
+  position: absolute;
+  left: 15%;
+  top: 30%;
 }
 
-.navleft {
+.topnav-left {
   float: left;
-  margin: 30px;
-  text-decoration: none;
 }
 
 
-/*.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
+.topnav-right a:hover {
   background-color: #4CAF50;
   color: white;
-}*/
+}
+
+.topnav-right a.active {
+  background-color: #2C2D2D;
+  color: white;
+}
 
 .topnav-right {
   float: right;
   position: absolute;
   right: 15%;
-  top: 15%;
+  top: 40%;
 }
 
 .navright {
-  font-size: 0.5em;
-  padding: 20px;
-}
-
-a.nav {
   width: 1920px;
   height: 100px;
-  background-color: #4A4C4C;
+  background-color: none;
   color: white;
-  font-size: 1.7em;
+  font-size: 1.8em;
   text-decoration: none;
-  padding: 14px 16px;
+  padding: 8px 25px;
+  font-weight: semi-bold;
+}
+
+a {
+  width: 1920px;
+  height: 100px;
+  background-color: none;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  /*padding: 15px 16px;*/
+/*  margin-right: 30px;*/
 }
 
 .float-left {
@@ -163,158 +174,148 @@ a.nav {
 
 .herosection {
   width: 1920px;
-  height: 350px;
   background-color: #171818;
-  position: relative;
+  text-align: center;
 }
+
+.h2-hero {
+  color: white;
+  font-size: 3.5em;
+  font-weight: bold;
+  line-height: 1; 
+  text-align: center;
+  padding-top: 110px;
+}
+
+.h3-hero {
+  color: #A5A7A7;
+  font-size: 2em;
+  font-weight: medium;
+  line-height: 1; 
+  text-align: center;
+  padding-top: 5px;
+}
+
+.button-green {
+  text-align: center;
+  background-color: #4CAF50;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.3em;
+  margin: 80px 10px;
+  color: white;
+}
+
+.button-white {
+  text-align: center;
+  background-color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.3em;
+  margin: 80px 10px;
+  color: #4CAF50;
+}
+
+/*Icon Section*/
 
 h2 {
   color: white;
-  font-size: 3.3em;
+  font-size: 3.5em;
   font-weight: bold;
   line-height: 1; 
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 60px;
+  letter-spacing: 2px;
 }
 
 h3 {
   color: #A5A7A7;
   font-size: 2em;
-  font-weight: thin;
+  font-weight: medium;
   line-height: 1; 
-  position: absolute;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -50%);
-}
-
-.hero-button {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 40px;
-  font-size: 1.3em;
-  margin: 0 10px;
+  padding-top: 15px;
+  letter-spacing: 1.6px;
 }
-
-/*Icon Section*/
 
 .greytext {
-  color: #A5A7A7
+  color: #2C2D2D;
+}
+
+.lightgreytext {
+  color: #959B95;
 }
 
 h4 {
-  color: #A5A7A7;
-  font-size: 1.8em;
-  font-weight: normal;
+  font-size: 2em;
+  font-weight: bold;
   line-height: 1; 
-  position: absolute;
-  left: 50%;
-  top: 26%;
-  transform: translate(-50%, -50%);
+  padding-top: 5px;
+  letter-spacing: 2px;
 }
 
 .iconsection {
   width: 1920px;
-  height: 495px;
   background-color: white;
-  position: relative;
+  text-align: center;
 }
 
 .iconboxpanel {
-  width: 800px;
-  height: 150px;
+  width: 950px;
   margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 45px;
 }
 
 .iconbox {
-  width: 250px;
-  height: 180px;
-  border: 1px solid #ADA3A3;
+  width: 300px;
+  height: 220px;
+  border: 1px solid #E3E8E3;
   background-color: white;
   border-radius: 5px;
 }
 
-.greyicon {
-  width: 50px;
-  height: 50px;
-  background-color: #606460; 
-  margin: 0 auto;
-  margin-top: 20px;
-  border-radius: 50%;
+.fas {
+color: #646764;
+font-size: 60px;
+padding: 20px;
 }
 
 p {
   font-size: 1.5em; 
-  color: #ADA3A3;
+  color: #646764;
   text-align: center;
-  padding: 20px;
-  margin-top: 15px;
+  padding: 9px;
+  line-height: 1.8;
+  font-weight: bold;
+  letter-spacing: 2;
 }
 
 .margin-right {
   margin-right: 20px;
 }
 
-.icon-button {
-  position: absolute;
-  top: 170%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 40px;
-  font-size: 1.3em;
-  margin: 0 10px;
-}
 
 /*Green Section*/
 
 .greensection {
   width: 1920px;
-  height: 400px;
   background-color: #4CAF50;
-  position: relative;
+  text-align: center;
 }
 
-.whitetext {
-  color: white;
-}
 
 .smalltext {
-  font-size: 1.3em;
-  margin-top: 30px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.white-button {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-size: 1.5em; 
   text-align: center;
-  background-color: white;
-  border: none;
-  color: #4CAF50;
-  padding: 15px 40px;
-  font-size: 1.3em;
-  margin: 0 10px;
+  padding: 15px;
+  line-height: 1.8;
+  font-weight: bold;
+  letter-spacing: 2;
+  width: 1070px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 5px;
+
 }
 
 .underline {
@@ -325,42 +326,35 @@ p {
 
 .whitesection {
   width: 1920px;
-  height: 400px;
   background-color: white;
-  position: relative;
+  text-align: center;
 }
 
-.green2-button {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.button-white {
   text-align: center;
-  background-color: #4CAF50;
+  background-color: white;
   border: none;
-  color: white;
   padding: 15px 40px;
   font-size: 1.3em;
-  margin: 0 10px;
+  margin: 80px 10px;
+  color: #4CAF50;
 }
 
 /*Footer*/
 
 .fcontainer {
   width: 1920px;
-  height: 200px;
   background-color: #2C2D2D;
-  position: relative;
+  text-align: center;
+  padding: 100px;
 }
 
 small {
-  font-size: 1.5em;
-  color: white;
+  font-size: 1.3em;
+  color: #959B95;
   margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+
 }
 
 a {
