@@ -94,10 +94,12 @@
 
  .wrapper {
  	width: 1920px;
- 	height: 1080px;
- 	/* 	background-color: #D3D3D3;*/
  	margin: 0 auto;
  }
+
+  /*Sections*/
+
+  /*TYPIFY - GET STARTED*/
 
  /*Header*/
 
@@ -215,6 +217,29 @@
   	/*margin: 1px;*/
   }
 
+/*  .fas {
+    color: #72C9CB;
+    font-size: 40px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .far {
+    color: #72C9CB;
+    font-size: 40px;
+    padding: 60px;
+    margin: 0 auto;
+  }*/
+/*
+    .blueicon {
+    border-radius: 50%;
+    background-color: #72C9CB;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }*/
+
   .float-left {
   	float: left;
   }
@@ -252,14 +277,7 @@
   	display: inline-block;
   }
 
-  .blueicon {
-  	border-radius: 50%;
-  	background-color: #72C9CB;
-  	width: 20px;
-  	height: 20px;
-  	margin: 0 auto;
-  	margin-top: 15px;
-  }
+
 
   p {
   	font-size: 1.5em; 
@@ -319,12 +337,12 @@
 
   }
 
-   .smallinputbox {
-   	width: 280px;
-  	height: 40px;
-  	background-color: yellow;
-  	border: 1px solid black;
-  	vertical-align: bottom;
+  .smallinputbox {
+    width: 280px;
+    height: 40px;
+    background-color: yellow;
+    border: 1px solid black;
+    vertical-align: bottom;
   }
 
   .margin-right {

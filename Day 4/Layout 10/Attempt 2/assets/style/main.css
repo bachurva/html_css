@@ -1,0 +1,349 @@
+/*CSS Reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+ 	display: block;
+ }
+ body {
+ 	line-height: 1;
+ }
+ ol, ul {
+ 	list-style: none;
+ }
+ blockquote, q {
+ 	quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ 	content: '';
+ 	content: none;
+ }
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
+
+ /*Universal Border Box and Clearfix*/
+
+ *, *:before, *:after{
+ 	box-sizing: border-box;
+ }
+
+ .cf:before, .cf:after{
+ 	content: "";
+ 	display: table;
+ }
+
+ .cf:after{
+ 	clear:both;
+ }
+
+ .cf:before{
+ 	clear:both;
+ }
+
+ .cf{
+ 	clear:both;
+ } 
+
+ .cf{
+ 	*zoom:1;
+ } 
+
+ .group:after {
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ }
+
+ /*Custom CSS*/
+
+ /*Body*/
+
+ *,
+ html,body {
+ 	font-size: 10px;
+ 	font-family: Montserrat;
+ }
+
+
+ /*Sections*/
+
+ /*TYPIFY - GET STARTED*/
+
+ /*Header*/
+
+ .hcontainer {
+ 	width: 1920px;
+ 	background-color: #63DBE8;
+  position: relative;
+}
+
+.centerbox {
+  width: 800px;
+  border: 2px solid white;
+  margin: 0 auto; 
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.border {
+  border: 1px solid white;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  margin: 5px 0;
+}
+
+.sponsor {
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+  letter-spacing: 3px;
+  padding: 500px;
+
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+  letter-spacing: 3px;
+  padding: 50px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(70, 117, 125, 0.7);
+  border: none;
+  color: white;
+  padding:  20px 30px;
+  font-size: 2em;
+  margin: 0 auto;
+  letter-spacing: 1.7;
+}
+
+/*Icon Page*/
+
+.icontainer {
+  width: 1920px;
+  background-color: #D5E9EC;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+ font-size: 3.2em;
+ font-weight: extra-light;
+ color: #ADA3A3;
+ line-height: 1.2;
+ letter-spacing: 0.5px;
+ margin-bottom: 10px;
+ padding-top: 25px;
+ padding-bottom: 10px;
+ text-align: center;
+
+}
+
+.dblUnderlined { 
+  border-bottom: 4px double white; 
+  width: 550px;
+  margin: 0 auto;
+}
+
+.iconboxpanel1 {
+  width: 1300px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+.iconboxpanel2 {
+  width: 870px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.iconbox {
+  width: 410px;
+  height: 280px;
+  border: 1px solid #E3E8E3;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.far {
+  color: #72C9CB;
+  font-size: 60px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.float-left {
+ float: left;
+}
+
+.border-right {
+ border-right: none;
+}
+
+
+h3 {
+ font-size: 2em;
+ font-weight: bold;
+ text-align: center;
+ color: #ADA3A3;
+ line-height: 1.2;
+ letter-spacing: 0.5px;
+ margin-top: 20px;
+ padding-bottom: 10px;
+}
+
+.invisiblebox {
+ clear: both;
+}
+
+
+.inlineblock {
+ display: inline-block;
+}
+
+p {
+ font-size: 1.8em; 
+ color: #ADA3A3;
+ text-align: center;
+ padding: 10px;
+ padding-top: 20px;
+ letter-spacing: 1px;
+ font-weight: 600;
+}
+
+
+/*Footer*/
+
+.fcontainer {
+ width: 1920px;
+ background-color: rgb(173, 163, 163,0.3);	
+}
+
+.f.dblUnderlined { 
+  border-bottom: 4px double white; 
+  width: 200px;
+  margin: 0 auto;
+}
+
+.hf {
+ border-bottom: 1px solid white;
+ width: 210px;
+}
+
+.panel1 {
+ width: 600px;
+ height: 80px;
+ margin: 0 auto;
+ border: 2px solid black;
+}
+
+.headerpanel {
+ width: 600px;
+ height: 40px;
+ margin: 0 auto;
+ border: 2px solid grey;
+ margin-top: 100px;
+/*  	position: absolute;
+  	top: 34.40%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);*/
+  }
+
+  h6 {
+  	font-size: 1.6em;
+  	font-weight: extra-light;
+  	text-align: center;
+  	color: #ADA3A3;
+  	line-height: 1.2;
+  	letter-spacing: 0.5px;
+  	margin-top: 20px;
+  	/*display: inline-block*/;
+
+  }
+
+  .smallinputbox {
+    width: 280px;
+    height: 40px;
+    background-color: yellow;
+    border: 1px solid black;
+    vertical-align: bottom;
+  }
+
+  .margin-right {
+  	margin-right: 36px;
+  }
+
+  small {
+  	font-size: 1.5em;
+  	color: #ADA3A3;
+  	margin: 0 auto;
+  	position: absolute;
+  	top: 90%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  }
+
+  a {
+  	color: #72C9CB;
+  	text-decoration: underline;
+  }
+
+/* hr.typify {
+  border-top: 1px solid white;
+  width: 50px;
+  }*/
+
+ /*   hr {
+    border-bottom: 1px solid white;
+    width: 500px;
+  }*/

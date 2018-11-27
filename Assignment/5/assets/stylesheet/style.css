@@ -1,0 +1,232 @@
+/* CSS Resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main CSS */
+
+/* General CSS */
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.cf:before, .cf:after {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	*zoom: 1;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #F1E9D4 url(assets/media/gold.jpg) repeat;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.wrapper {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/* Header */
+
+h1 {
+	font-size: 60px;
+	color: #3C342E;
+	text-align: center;
+	font-weight: 600;
+	padding: 30px 0;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #3C342E;	
+}
+
+.navpanel {
+	border-top: 1px solid #D7CFAD;
+	border-bottom: 1px solid #D7CFAD;
+	padding: 30px 0;
+	margin: 20px 0;
+}
+
+.navpanel li {
+	display: inline-block;
+}
+
+.navpanel a {
+	font-size: 14px;
+	color: #706C53;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 300;
+	padding: 30px;
+}
+
+.navpanel a:hover {
+	background-color: #D7CFAD;
+	padding: 15px 30px;
+}
+
+
+/* Main Inset */
+
+.whiteinset {
+	width: 1100px;
+	background-color: white;
+	border: 1px solid #D7CFAD;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.valign {
+	vertical-align: top;
+}
+
+
+.col1 h2 {
+	font-size: 30px;
+	color: #706C53;
+	font-weight: 400;
+	padding: 40px;
+}
+
+.introduction {
+  width: 440px;
+  line-height: 150%; 
+  font-size: 15px;
+  color: #747474;
+  padding-left: 40px;
+}
+
+.introduction a {
+	color: #747474;
+}
+
+.introduction a:hover {
+	text-decoration: none;
+}
+
+
+.col2 h2 {
+	font-size: 23px;
+	color: #706C53;
+	font-weight: 400;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+.linklist {
+	line-height: 250%;
+	padding: 40px;
+}
+
+
+.linklist a {
+	color: #747474;
+	font-size: 13px;
+	font-weight: 400;
+	border-bottom: 1px solid #D7CFAD;
+	padding-bottom: 15px;
+}
+
+.linklist a:hover {
+	text-decoration: none;
+}
+
+
+.col3 h2 {
+	font-size: 23px;
+	color: #706C53;
+	font-weight: 400;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+.valign {
+	vertical-align: top;
+}
+
+/* Footer */
+
+.fcontainer {
+	padding: 30px 0;
+	text-align: center;	
+	border-top: 1px solid #D7CFAD;
+	margin-top: 30px;
+}
+
+
+.fcontainer small {
+	color: #7A7762;
+	font-size: 15px;
+}
+
+.fcontainer a {
+	color: #7A7762;
+}
+
+.fcontainer a:hover {
+	text-decoration: none;
+}
