@@ -1,0 +1,203 @@
+/*   CSS Resets   */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*  General CSS  */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	font-size: 10px;
+}
+
+.toppanel {
+	border-top: 18px solid #7DB1C6;
+  position: fixed;  
+  width: 100%; 
+  background-color: white;
+}
+
+.wrapper {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1,small {
+	font-family: 'Roboto Slab', serif;
+}
+
+h2,h3,h4,h5,h6,p {
+	font-family: 'PT Serif', serif;
+}
+
+/*  Header */
+
+/*  Issue Tag */
+
+
+.issuetag {
+	width: 80px;
+	height: 100px;
+	padding: 30px 20px;
+	margin-left: 20px;
+	margin-top: 35px;
+	background-color: #7DB1C6;
+	top: 0; 
+  left: 0;
+  position: fixed;
+}
+
+.issuetag hr {
+    border: 3px dotted white;
+    border-style: none none dotted; 
+    color: white; 
+}
+
+.issuetag span {
+	color: white;
+	font-style: italic;
+	font-size: 2em;
+	padding: 5px;
+	margin-right: 100px;
+}
+
+.title {
+	font-size: 5em;
+	text-align: center;
+	color: #4B4D4D;
+	padding-bottom: 15px;
+	padding-top: 100px;
+}
+
+.tagline {
+	font-size: 2em;
+	color: #B8B8B3;
+	padding: 0 10px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.tagline span {
+	border-bottom: 2px solid #B8B8B3;
+	display: inline-block;
+}
+
+/*  Introduction */
+
+.paragraph {
+	font-size: 2em;
+	text-align: left;
+	color: #4F4F4D;
+	padding: 10px;
+	font-weight: 400;
+}
+
+.introduction::first-letter {
+  text-transform: uppercase;
+  font-size: 3.4em;
+  font-weight: bold;
+  font-family: 'PT Serif', serif;
+  float: left;
+  line-height: 1;
+}
+
+/*  Clearfix */
+
+.cf:before, .cf:after {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	*zoom: 1;
+}
+
+ .group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*  Sub-Sections */
+
+.sub-heading {
+	font-size: 2.8em;
+	text-align: left;
+	color: #4B4D4D;
+	padding-left: 10px;
+	padding-bottom: 6px;
+	padding-top: 20px;
+	font-variant: small-caps;
+}
+
+
+/*  Footer */
+
+.footer {
+	font-size: 1.5em;
+	color: #B8B8B3;
+	padding-left: 10px;
+	padding-bottom: 100px;
+	padding-top: 25px;
+	font-weight: 600;
+  border-top: 5px solid rgb(240,240,240);
+  text-align: left;
+}
+
+
+
+
