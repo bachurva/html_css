@@ -1,0 +1,364 @@
+/*   CSS Resets   */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  Main CSS  */
+
+
+/*  General CSS  */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+/* Sidebar */
+
+.sidebar {
+	margin:0;
+  padding: 300px 55px;
+  width: 420px;
+  background-color: #312450;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+}
+
+
+/* Sidebar Links */
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #312450;
+  color: rgba(255, 255, 255, 0.35);
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  /*border-bottom: 1px solid white;*/
+	padding-top: 50px;
+	display: block;
+}
+
+.sidebar a:hover {
+	color: white;
+}
+
+.sidebar .active {
+  background-color: #312450;
+  color: white;
+}
+
+.sidebar-border {
+	width: 300px;
+	height: 2px;
+  background: -webkit-linear-gradient(to right, #5E42A6, #B74E91);
+  background: -moz-linear-gradient(to right, #5E42A6, #B74E91);
+  background: linear-gradient(to right, #5E42A6, #B74E91);
+}
+
+/* Headers */
+
+h1 {
+	font-size: 6.5em;
+	font-weight: 700;
+	padding-left: 550px;
+	padding-top: 340px; 
+}
+
+
+/* Welcome Page */
+
+.welcome {
+	background-color: rgb(94, 66, 166);
+}
+
+.welcome p {
+	font-size: 2.5em;
+	font-weight: 600;
+	padding-left: 550px;
+	padding-top: 50px;
+	padding-bottom: 00px;
+	color: rgba(255, 255, 255, 0.35);
+	line-height: 2;
+	width: 1350px;
+}
+
+
+/* Button */
+
+.btn-welcome {
+  background-color: rgb(94, 66, 166);
+  border: .5px solid rgba(255, 255, 255, 0.35);
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 35px;
+  margin-left: 550px;
+  margin-bottom: 400px;
+  line-height: 2;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.btn-primary {
+  background-color: rgb(80, 82, 181);
+  border: .5px solid rgba(255, 255, 255, 0.35);
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 35px;
+  margin-top: 60px;
+  margin-right: 400px;
+  margin-left: 6px;
+  margin-bottom: 160px;
+  line-height: 2;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.btn-secondary {
+  background-color: rgb(183, 78, 145);
+  border: .5px solid rgba(255, 255, 255, 0.35);
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 35px;
+  margin-bottom: 400px;
+  margin-top: 50px;
+  line-height: 2;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+ /* Who We Are Page */
+
+ .whoweare {
+	background-color: rgb(80, 82, 181);
+}
+
+.image {
+	padding-left: 400px;
+	margin-right: 80px;
+	width: 50%;
+	height: 55%;
+	float: left;
+}
+
+.whoweare p {
+	font-size: 2.2em;
+	color: rgba(255, 255, 255, 0.60);
+	padding-top: 200px;
+	line-height: 1.5;
+}
+
+.whoweare h2 {
+	font-size: 3.2em;
+	font-weight: 700;
+	float: left;
+	margin-left: 5px;
+	margin-top: 150px;
+}
+
+
+ /* What We Do Page */
+
+ .whatwedo {
+	background-color: rgb(183, 78, 145);
+}
+
+.descriptor {
+	font-size: 2.2em;
+	color: rgba(255, 255, 255, 0.60);
+	line-height: 1.5;
+}
+
+.whatwedo h2 {
+	font-size: 3.5em;
+	font-weight: 700;
+	padding-top: 130px; 
+}
+
+.whatwedo h3 {
+	font-size: 2.5em;
+	font-weight: 700;
+	margin-left: 40px;
+	width: 300px;
+}
+
+.iconcontainer {
+	width: 1900px;
+	background-color: rgb(183, 78, 145);
+	padding-left: 550px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.iconcontainer p {
+	font-size: 2.2em;
+	color: rgba(255, 255, 255, 0.60);
+	padding: 40px 30px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+	line-height: 1.5;
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.iconcontainer h3 {
+	font-size: 2.5em;
+	font-weight: 700;
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 40px;
+}
+
+.iconbox {
+  width: 610px;
+  height: 250px;
+  border: 1px solid #E3E8E3;
+  background-color: rgb(183, 78, 145);
+  display: inline-block;  
+}
+
+ .toprightcorner {
+ 	border-top-right-radius: 5px;
+ }
+
+ 	.topleftcorner {
+ 	 border-top-left-radius: 5px;
+ }
+
+  .bottomrightcorner {
+ 	border-bottom-right-radius: 5px;
+ }
+
+ 	.bottomleftcorner {
+ 	 border-bottom-left-radius: 5px;
+ }
+
+ .border-right {
+ 	border-right: none;
+ }
+
+ .border-bottom {
+ 	border-bottom: none;
+ }
+
+
+i {
+	font-size: 20px;
+	color: rgb(183, 78, 145);
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.icon-bg {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border-radius: 50%;
+	border: 2px solid white;
+	padding: 10px;
+	position: relative;
+	margin: 30px;
+	vertical-align: top;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+
+ /* Get In Touch Page */
+
+ .getintouch {
+	background-color: rgb(94, 66, 166);
+}
+
+
+ /* Footer */
+
+ .footer {
+  width: 1905px;
+  background-color: #493382;
+  text-align: center;
+  padding: 100px;
+}
+
+.footer small {
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.30);
+}
