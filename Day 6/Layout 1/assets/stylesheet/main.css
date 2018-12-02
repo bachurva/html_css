@@ -1,0 +1,212 @@
+/*   CSS Resets   */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  Main CSS  */
+
+
+/*  General CSS  */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	font-size: 10px;
+	font-family: Arial, sans-serif;
+}
+
+.wrapper {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*  Navigation Bar  */
+
+header {
+	background-color: #F90619;
+}
+
+.headernav li {
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 2;
+	padding: 10px;
+	display: inline-block;
+}
+
+.headernav a {
+ text-decoration: none;
+ color: white;
+}
+
+/*  Site Map  */
+
+section {
+	background-color: #D0D3B5;
+	padding: 20px;
+}
+
+.card1 {
+	background-color: #1761A0;
+	width: 250px;
+	height: 400px;
+	box-shadow: 5px 5px 4px 2px gray;
+	padding: 20px 40px; 
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+
+.card1 li {
+	font-size: 1.8em; 
+	color: #D0D3B5;
+	list-style-type: decimal;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+.card2 {
+	background-color: #1761A0;
+	width: 250px;
+	height: 400px;
+	box-shadow: 5px 5px 4px 2px gray;
+	padding: 20px 10px; 
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.card2 li {
+  padding-left: 12px;
+	font-weight: 700;
+	line-height: 1;
+	color: #D0D3B5;
+	font-size: 1.2em;
+}
+
+.menu {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.olist {
+	list-style-type: decimal;
+}
+
+.submenu {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.card3 {
+	background-color: #1761A0;
+	width: 250px;
+	height: 400px;
+	box-shadow: 5px 5px 4px 2px gray;
+	padding: 20px 10px; 
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+
+.card3 li {
+  list-style-type: none;
+  padding-left: 20px;
+	font-weight: 700;
+	line-height: 2;
+	color: #D0D3B5;
+	font-size: 1.8em;
+}
+
+.card3 ul li::before
+{
+font-family: "Font Awesome 5 Free";
+content: "\f058";
+padding: 10px;
+}
+
+/*  Description List  */
+
+.deslist dt {
+font-family: "Courier New", sans-serif;
+font-size: 2.3em;
+font-weight: 700;
+padding: 15px 10px;
+}
+
+.deslist dd {
+	font-family: Arial, sans-serif;
+	font-size: 1.9em;
+	padding-left: 15px;
+}
+
+
+
+
+/* Footer Menu */
+
+footer {
+	background-color: #4F4D4E;
+}
+
+.footernav li {
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 2;
+	padding: 20px 10px;
+	display: inline-block;
+}
+
+.footernav a {
+ text-decoration: none;
+ color: white;
+}

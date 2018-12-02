@@ -94,20 +94,31 @@
 	</section>
 
 	<!-- Get In Touch Page -->
-	<section class="getintouch">
+	<section class="getintouch group">
 		<h2>Get in touch</h2>
 			<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-				<form></form>
-				<button class="btn">SEND MESSAGE</button>
-				<hr>
-				<h3>Address</h3>
-				<p>12345 Somewhere Road #654 Nashville,TN 00000-0000 USA</p>
-				<br>
-				<h3>Email</h3>
-				<p>user@untitled.tld</p>
-				<br>
-				<h3>Social</h3>
-				<div class="iconbox float-left margin-right">
+				<div class="container">
+  				<form action="action_page.php">
+    				<label for="name">Name</label>
+    				<input type="text" id="name" name="name">
+    				<label for="email">Email</label>
+    				<input type="text" id="email" name="email">
+    				<label for="message">Message</label>
+    				<textarea id="message" name="message"></textarea>
+    				<button class="btn-tertiary">SEND MESSAGE</button>
+    			</form>
+				</div>
+				<div class="contact">
+					<h3>Address</h3>
+					<p>12345 Somewhere Road #654 Nashville,TN 00000-0000 USA</p>
+					<br>
+					<h3>Email</h3>
+					<p>user@untitled.tld</p>
+					<br>
+					<h3>Social</h3>
+				</div>
+
+				<!-- <div class="iconbox float-left margin-right"> -->
 <!-- 					<i class="fab fa-twitter"></i>
 					<i class="fab fa-facebook-f"></i>
 					<i class="fab fa-github"></i>
