@@ -215,7 +215,7 @@
    	text-decoration: none;
    	cursor: pointer;
    	border-radius: 35px;
-   	margin-bottom: 400px;
+   	margin-bottom: 100px;
    	margin-top: 50px;
    	line-height: 2;
    	font-weight: 600;
@@ -231,7 +231,7 @@
    	text-decoration: none;
    	cursor: pointer;
    	border-radius: 35px;
-   	margin-bottom: 400px;
+   	margin-bottom: 100px;
    	margin-top: 50px;
    	line-height: 2;
    	font-weight: 600;
@@ -465,7 +465,7 @@
 
    .contact {
    	background-color: rgb(94, 66, 166);
-   	border: 1px solid white;
+   	/*border: 1px solid white;*/
    	float: right;
    	vertical-align: top;
    	width: 700px;
@@ -475,13 +475,19 @@
    .contact h3 {
    	font-size: 2.5em;
    	font-weight: 700;
-   	display: block;
+   	/*display: block;*/
    	margin-top: 40px;
    	color: white;
    	padding-bottom: 15px;
-   	float: right;
+   	/*float: right;*/
+      padding-right: 650px;
+      text-align: left;
    }
 
+.contact p {
+   padding-right: 475px;
+   float: right;
+}
 
    /* Footer */
 
@@ -490,9 +496,10 @@
    	background-color: #493382;
    	text-align: center;
    	padding: 100px;
+      padding-right: 700px; 
    }
 
    .footer small {
-   	font-size: 1.5em;
+   	font-size: 1.8em;
    	color: rgba(255, 255, 255, 0.30);
    }
